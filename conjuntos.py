@@ -28,7 +28,7 @@ print(RT)
 # & -----> iINTERSECCION
 RT1 = ((A & B)& C)| B
 print(RT1)
-"""
+
 #Ejercicio 1
 A = {1,2,3,4,5}
 B = {4,5,6}
@@ -40,4 +40,18 @@ print(RT)
 
 RT1 = (((A-B)|(C-B)) & (C-B)) & (B-C)
 print(RT1)
+"""
+#Subconjunto
+A = {1,2,3,4,5}
+B = {3,4,5}
+
+S = (A <= B)
+print(S)
+
+if S:
+    RT = A & B
+    print(RT)
+else:
+    print("Conjunto Vacio")
+
 
