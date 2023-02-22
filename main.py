@@ -14,3 +14,4 @@ print(type(d))
 e = "Algoritmos"
 print(type(e))
 #Validacion de github
+Lista = []
