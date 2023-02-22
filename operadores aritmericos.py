@@ -1,5 +1,7 @@
+
 #Libreria
 import math
+
 ##Adquiriri informacion 
 #Entradas
 a = int(input("Digite el numero 1: "))
@@ -20,3 +22,7 @@ print(f"El resultado de la multiplicación es : {e}")
 print(f"El resultado de la suma división : {f}")
 print(f"El resultado de la potencia : {g}")
 print(f"El resultado de la raiz de a es : {h}")
+
+#Ejercicio
+R = 15/3(7+(68-15*33+((45**2)/5)/3)/2)+19
+print(float(R))
