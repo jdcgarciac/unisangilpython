@@ -1,4 +1,3 @@
-
 #Libreria
 import math
 
@@ -24,5 +23,8 @@ print(f"El resultado de la potencia : {g}")
 print(f"El resultado de la raiz de a es : {h}")
 
 #Ejercicio
-R = 15/3(7+(68-15*33+((45**2)/5)/3)/2)+19
-print(float(R))
+R = 15/3*(7+(68-15*33+((45**2)/5)/3)/2)+19
+print(R)
+#Ejercicio 2
+A = (4+8*2)/4-(3**2)+math.sqrt(4)
+print(A)
