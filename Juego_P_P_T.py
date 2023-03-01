@@ -15,17 +15,17 @@ elif usuario == "Tijera" and cpu == "Tijera":
     print("Empate!!!")
 elif usuario == "Papel" and cpu == "Papel":
     print("Empate!!!")
+elif usuario == "Piedra" and cpu == "Papel":
+    print("Gana cpu!!!")
 elif usuario == "Piedra" and cpu == "Tijera":
     print("Gana usuario!!!")
 elif usuario == "Papel" and cpu == "Piedra":
     print("Gana usuario!!!")
+elif usuario == "Papel" and cpu == "Tijera":
+    print("Gana cpu!!!")
+elif usuario == "Tijera" and cpu == "Piedra":
+    print("Gana cpu!!!")
 elif usuario == "Tijera" and cpu == "Papel":
     print("Gana usuario!!!")
-elif cpu == "Piedra" and usuario == "Tijera":
-    print("Gana cpu!!!")
-elif cpu == "Papel" and usuario == "Piedra":
-    print("Gana cpu!!!")
-elif cpu == "Papel" and usuario == "Tijera":
-    print("Gana cpu!!!")
 else:
     print("Error!!!")
