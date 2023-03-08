@@ -31,7 +31,23 @@ print(lista)
 lista.remove("unisangil")
 print(lista)
 """
+#Libreria
 import random
-
+from time import time
+#Ttiempo inicial
+tiempo_inicial = time()
+#Generar datos aleatorios con funcion
 lista_aleatoria = [random.randint(1,101) for i in range(101)]
 print(lista_aleatoria)
+#Ordenar la lista
+lista_aleatoria.sort()#Ascendente
+print(lista_aleatoria)
+lista_aleatoria.sort(reverse=True)#Descendente
+print(lista_aleatoria)
+#Elimina los repetidos
+lista_f = list(set(lista_aleatoria))
+print(lista_f)
+tiempo_final = time()
+#Calculo de tiempo
+tiempo_total = tiempo_final - tiempo_inicial
+print(tiempo_total*1000)
