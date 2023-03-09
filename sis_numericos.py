@@ -1,10 +1,10 @@
+#Calculadora de sistemas numericos
 numero = int(input("Digite el numero a transformar: "))
-#Conv. decimal-binario
+#Decimal -Binario
 binario = bin(numero)
-print(f"Binario: {binario}")
-#Conv. decimal-hexa
+#Imprimir el resultado
+print(binario)
+#Decimal -Hexadecimal
 hexadecimal = hex(numero)
-print(f"Hexadecimal: {hexadecimal}")
-#Conv. decimal-octal
-octal = oct(numero)
-print(f"Octal: {octal}")
+#Imprimir el resultado
+print(hexadecimal.upper())
