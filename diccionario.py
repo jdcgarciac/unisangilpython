@@ -58,4 +58,26 @@ for estudiante in x:
     print(estudiante.keys())
     for keys,values in estudiante.items():
      print(f"{keys}: {values}")
-     
+
+#modificar informacion
+unisangil["nombre"] = "Jesús Caro"
+print(unisangil)
+#Agregar
+unisangil["celular"] = 3213246454
+print(unisangil)
+
+#eliminar
+del unisangil["celular"]
+print(unisangil)
+
+#Crear con listas diccionarios
+a = ["num1","num2","num3"]
+b = [1 , 2, 3]
+#zip
+print(list(zip(a,b)))
+
+new_dict = {a:b for (a,b) in zip(a,b)}
+print(new_dict)
+
+
+   
